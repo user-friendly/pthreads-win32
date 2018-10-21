@@ -1,0 +1,91 @@
+# -*- mode: gitignore; -*-
+
+# 
+# Project specific.
+# 
+/[Bb]in
+/[Dd]ebug
+/[Rr]elease
+
+#
+# The following are taken from:
+# https://github.com/github/gitignore
+#
+
+# 
+# C/C++ related
+# 
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+#packing-only formats
+*.iso
+*.tar
+
+# 
+# Editors and IDEs.
+# Purposely excluding Visual Studio since
+# it has a ton of exclusions which might
+# interfere with some future files to be
+# added.
+# 
+# Yes, but it does not.
+.vcxproj.user
+/.vs
+/ipch
+*.VC.db
+*.VC.opendb
+
+# Notepad++ backups #
+*.bak
+
+# 
+# Linux
+# 
+*~
+
+# 
+# OSX
+# 
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must ends with two \r.
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# 
+# Windows (for no good reason)
+# 
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
